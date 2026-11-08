@@ -14,9 +14,9 @@ public class RegisterPage extends BasePage {
 
     private final SelenideElement emailInput = $("input[name='email']");
 
-    private final SelenideElement passwordInput = $("name[type='password']");
+    private final SelenideElement passwordInput = $("input[name='password']");
 
-    private final SelenideElement confirmPasswordInput = $("name[type='repeat']");
+    private final SelenideElement confirmPasswordInput = $("input[name='repeat']");
 
     private final SelenideElement registerButton = $("form button[type='submit']");
 
