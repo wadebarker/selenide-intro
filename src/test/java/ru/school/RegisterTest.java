@@ -20,6 +20,6 @@ public class RegisterTest extends BaseTest {
                 user.confirmPassword()
         );
 
-        webdriver().shouldNotHave(urlContaining("/auth/login"));
+        webdriver().shouldNotHave(urlContaining("/auth/register"));
     }
 }
